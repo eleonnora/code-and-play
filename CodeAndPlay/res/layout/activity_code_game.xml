@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.92">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="67dp"
+            android:src="@drawable/white_egg"
+            android:id="@+id/egg1"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="67dp"
+            android:src="@drawable/white_egg"
+            android:id="@+id/egg2"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="67dp"
+            android:src="@drawable/white_egg"
+            android:id="@+id/egg3"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="67dp"
+            android:src="@drawable/white_egg"
+            android:id="@+id/egg4"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="67dp"
+            android:src="@drawable/white_egg"
+            android:id="@+id/egg5"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="67dp"
+            android:src="@drawable/choco"
+            android:id="@+id/choco"
+            />
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/whitechocolate"
+            android:id="@+id/white_choco"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="59dp"
+            android:layout_height="80dp"
+            android:src="@drawable/milk_bottle"
+            android:id="@+id/milkimg" />
+
+        <ImageView
+            android:layout_width="66dp"
+            android:layout_height="82dp"
+            android:src="@drawable/flour"
+            android:id="@+id/flourimg"/>
+
+        <ImageView
+            android:layout_width="131dp"
+            android:layout_height="81dp"
+            android:src="@drawable/white_sugar"
+            android:id="@+id/sugarimg"/>
+
+        <ImageView
+            android:layout_width="96dp"
+            android:layout_height="122dp"
+            android:src="@drawable/oil"
+            android:id="@+id/oilimg"/>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffb3da">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ADD_FLOUR()"
+            android:id="@+id/add_flour"
+            android:background="#ffcce6"
+            android:textSize="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ADD_SUGAR()"
+            android:id="@+id/add_sugar"
+            android:background="#ffcce6"
+            android:textSize="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffb3da">
+
+        <Button
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ADD_OIL()"
+            android:id="@+id/add_oil"
+            android:background="#ffcce6"
+            android:textSize="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            />
+
+        <Button
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ADD_MILK()"
+            android:id="@+id/add_milk"
+            android:background="#ffcce6"
+            android:textSize="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffb3da">
+
+
+        <Button
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ADD_EGG()"
+            android:id="@+id/add_egg"
+            android:background="#ffcce6"
+            android:textSize="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"/>
+
+        <Button
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ADD_CHOCOLATE()"
+            android:id="@+id/add_choco"
+            android:background="#ffcce6"
+            android:textSize="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            />
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/for_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:id="@+id/plus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:background="#ccccff"
+                />
+            <Button
+                android:id="@+id/minus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:background="#ccccff" />
+            <TextView
+                android:id="@+id/int_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Int quantity="
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/checkBoxBlackCh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Black chocolate"/>
+            <CheckBox
+                android:id="@+id/checkBoxWhiteCh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="White chocolate"/>
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:background="#ccffff"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"/>
+        <Button
+            android:id="@+id/recipe"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="RECIPE"
+            android:background="#ccffff"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

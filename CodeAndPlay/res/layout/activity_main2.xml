@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3"
+    android:background="@drawable/testovi">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Are you good in problem solving?"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#3D4D4A"
+        android:layout_weight="0.84"/>
+
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="true"
+        android:id="@+id/checkBoxT"
+        android:textSize="19dp"
+        android:textColor="#3D4D4A"
+        android:layout_alignParentTop="true"
+        android:onClick="itemClickedT"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="false"
+        android:id="@+id/checkBoxF"
+        android:textSize="19dp"
+        android:textColor="#3D4D4A"
+
+        android:onClick="itemClickedF"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:background="@drawable/strela"
+        android:layout_gravity="right"
+        android:onClick="itemClickedNext"/>
+
+
+</LinearLayout>
